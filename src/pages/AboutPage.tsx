@@ -3,13 +3,13 @@ const sunImg = 'https://cdn.poehali.dev/projects/89bce8a3-ab08-4b2f-996f-9a545e5
 export default function AboutPage() {
   return (
     <div>
-      <div className="bg-gradient-to-r from-yellow-300 to-orange-300 py-10 px-4 text-center">
+      <div className="bg-gradient-to-r from-yellow-300 to-orange-300 py-8 px-4 text-center rounded-3xl mb-2">
         <div className="text-5xl mb-3">💛</div>
         <h1 className="font-pacifico text-3xl text-white mb-2">О нашем детском садике</h1>
         <p className="font-nunito text-white/90 text-base">Тёплый дом для ваших детей с 1999 года</p>
       </div>
 
-      <div className="max-w-5xl mx-auto px-4 py-12">
+      <div className="py-8">
         <div className="grid lg:grid-cols-2 gap-10 items-start mb-12">
           <div>
             <h2 className="font-pacifico text-2xl text-orange-500 mb-4">Наша миссия</h2>

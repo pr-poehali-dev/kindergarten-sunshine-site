@@ -24,14 +24,12 @@ export default function HomePage({ onPageChange }: HomePageProps) {
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-yellow-300 via-orange-300 to-pink-300 overflow-hidden wave-divider pb-12">
+      <section className="relative bg-gradient-to-br from-yellow-300 via-orange-300 to-pink-300 overflow-hidden rounded-3xl pb-10 mb-2">
         {/* Decorative shapes */}
-        <div className="absolute top-4 right-8 text-6xl animate-float opacity-60">🌤️</div>
-        <div className="absolute top-20 left-4 text-4xl animate-float-slow opacity-50">🌈</div>
-        <div className="absolute bottom-12 right-4 text-5xl animate-wiggle opacity-40">🦋</div>
-        <div className="absolute bottom-8 left-12 text-4xl animate-float opacity-40">🌸</div>
+        <div className="absolute top-4 right-8 text-5xl animate-float opacity-60">🌤️</div>
+        <div className="absolute bottom-8 right-4 text-4xl animate-wiggle opacity-40">🦋</div>
 
-        <div className="max-w-7xl mx-auto px-4 pt-10 pb-4 grid lg:grid-cols-2 gap-8 items-center">
+        <div className="px-6 pt-8 pb-4 grid gap-6 items-center">
           <div className="animate-fade-in-up">
             <div className="inline-flex items-center gap-2 bg-white/40 backdrop-blur rounded-full px-4 py-1.5 text-sm font-nunito font-700 text-orange-700 mb-4">
               🏆 Лучший детский сад района 2025
@@ -91,7 +89,7 @@ export default function HomePage({ onPageChange }: HomePageProps) {
       </section>
 
       {/* Features Grid */}
-      <section className="max-w-7xl mx-auto px-4 py-14">
+      <section className="py-10">
         <div className="text-center mb-10">
           <h2 className="font-pacifico text-3xl text-orange-500 mb-2">Наши программы</h2>
           <p className="font-nunito text-gray-600 text-lg">Всестороннее развитие с первых лет жизни</p>
@@ -112,8 +110,8 @@ export default function HomePage({ onPageChange }: HomePageProps) {
       </section>
 
       {/* News Section */}
-      <section className="bg-gradient-to-r from-blue-50 to-green-50 py-14">
-        <div className="max-w-7xl mx-auto px-4">
+      <section className="bg-gradient-to-r from-blue-50 to-green-50 py-10 rounded-3xl">
+        <div className="px-4">
           <div className="flex items-center justify-between mb-8">
             <h2 className="font-pacifico text-3xl text-orange-500">Новости и объявления</h2>
             <button
@@ -137,7 +135,7 @@ export default function HomePage({ onPageChange }: HomePageProps) {
       </section>
 
       {/* Classroom image + CTA */}
-      <section className="max-w-7xl mx-auto px-4 py-14">
+      <section className="py-10">
         <div className="grid lg:grid-cols-2 gap-8 items-center">
           <div className="rounded-3xl overflow-hidden shadow-xl">
             <img src={classImg} alt="Занятие в группе" className="w-full h-72 object-cover" />

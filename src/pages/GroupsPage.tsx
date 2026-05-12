@@ -10,13 +10,13 @@ const groups = [
 export default function GroupsPage() {
   return (
     <div>
-      <div className="bg-gradient-to-r from-green-400 to-blue-400 py-10 px-4 text-center">
+      <div className="bg-gradient-to-r from-green-400 to-blue-400 py-8 px-4 text-center rounded-3xl mb-2">
         <div className="text-5xl mb-3">👨‍👩‍👧‍👦</div>
         <h1 className="font-pacifico text-3xl text-white mb-2">Наши группы</h1>
         <p className="font-nunito text-white/90 text-base">10 любящих коллективов для детей от 1 до 7 лет</p>
       </div>
 
-      <div className="max-w-5xl mx-auto px-4 py-12">
+      <div className="py-8">
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {groups.map((g, i) => (
             <div

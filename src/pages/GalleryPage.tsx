@@ -14,13 +14,13 @@ const photos = [
 export default function GalleryPage() {
   return (
     <div>
-      <div className="bg-gradient-to-r from-purple-400 to-pink-400 py-10 px-4 text-center">
+      <div className="bg-gradient-to-r from-purple-400 to-pink-400 py-8 px-4 text-center rounded-3xl mb-2">
         <div className="text-5xl mb-3">🎨</div>
         <h1 className="font-pacifico text-3xl text-white mb-2">Фотогалерея</h1>
         <p className="font-nunito text-white/90 text-base">Яркие моменты жизни нашего садика</p>
       </div>
 
-      <div className="max-w-5xl mx-auto px-4 py-12">
+      <div className="py-8">
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {photos.map((p, i) => (
             <div

@@ -54,13 +54,13 @@ export default function NewsPage() {
   return (
     <div>
       {/* Hero */}
-      <div className="bg-gradient-to-r from-blue-400 to-green-400 py-10 px-4 text-center">
+      <div className="bg-gradient-to-r from-blue-400 to-green-400 py-8 px-4 text-center rounded-3xl mb-2">
         <div className="text-5xl mb-3">📰</div>
         <h1 className="font-pacifico text-3xl text-white mb-2">Новости и объявления</h1>
         <p className="font-nunito text-white/90 text-base">Всегда в курсе жизни детского сада «Солнышко»</p>
       </div>
 
-      <div className="max-w-4xl mx-auto px-4 py-10">
+      <div className="py-8">
         {/* Filters */}
         <div className="flex flex-wrap gap-2 mb-8">
           {tags.map((t) => (
